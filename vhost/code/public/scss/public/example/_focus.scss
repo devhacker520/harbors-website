@@ -1,0 +1,24 @@
+section.focus{
+  margin-top: 70px;
+  padding: 75px 0 70px 0;
+  background: url("http://code.itharbors.com/images/subHeaderBg_blue.png") no-repeat fixed;
+  background-size: cover;
+  color: white;
+
+  .container{
+    width: 1180px;
+    margin: 0 auto;
+  }
+
+  h1{
+    font-size: 80px;
+    display: inline-block;
+  }
+
+  span{
+    font-size: 30px;
+    color: #c44747;
+    font-style: italic;
+    margin-left: 20px;
+  }
+}

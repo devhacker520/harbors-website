@@ -1,0 +1,124 @@
+section.main{
+
+  .container{
+    zoom: 1;
+    width: 1200px;
+    margin: 0 auto;
+
+    &:after{
+      content: " ";
+      font-size: 0;
+      line-height: 0;
+      clear: both;
+      height: 0;
+      display: block;
+      visibility: hidden;
+    }
+
+    .infomation{
+      float: left;
+      width: 65%;
+      padding: 20px;
+      box-sizing: border-box;
+      color: #333;
+      font-size: 14px;
+      line-height: 28px;
+
+      h1{
+        font-size: 20px;
+        line-height: 40px;
+        margin: 15px 0 5px 0;
+      }
+
+      pre{
+        padding: 5px 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+      }
+
+      p{
+        margin: 5px 0;
+      }
+
+      a{
+        color: #c44747;
+
+        &:hover{
+          text-decoration: none;
+        }
+      }
+
+      blockquote{
+        text-indent: 20px;
+      }
+    }
+
+    .sidebar{
+      float: right;
+      width: 35%;
+      padding: 20px;
+      box-sizing: border-box;
+
+      .title{
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.1em;
+        padding: 10px 0;
+        border-bottom: 1px solid #EDEDED;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      li{
+        line-height: 24px;
+        padding: 4px 0;
+
+        a{
+          display: block;
+          padding: 0 5px;
+
+          &:hover{
+            text-decoration: none;
+          }
+
+          .num{
+            font-size: 12px;
+            padding: 3px 7px 3px 7px;
+            background-color: #c44747;
+            color: white;
+            border-radius: 3px;
+            margin-right: 8px;
+          }
+
+          .info{
+            color: #c44747;
+          }
+
+          .btn{
+            float: right;
+            font-size: 11px;
+            padding: 0 10px;
+            background-color: #e1e1e1;
+            border-radius: 3px;
+            color: #848484;
+            border: none;
+            -webkit-transition: background 0.3s linear;
+            -moz-transition: background 0.3s linear;
+            -ms-transition: background 0.3s linear;
+            -o-transition: background 0.3s linear;
+            transition: background 0.3s linear;
+
+            &:hover{
+              color: white;
+              background-color: #c44747;
+              text-decoration: none;
+            }
+          }
+
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+footer.bottom
+    ul.container
+        li
+            div.title
+                a(href="http://code.itharbors.com") HARBORS
+            span 一款小型的WEB服务框架，代码简单，并且提供大部分常用功能。如果使用过程中发现bug，或者没有您需要的功能，欢迎在github上提交Issue或者代码。 ^.^
+        li
+            div.title 联系方式
+            span EMAIL:devhacker520@gmail.com
+            span 闽ICP备1400241号
+            span
+                a(href="http://www.itharbors.com") ITHARBORS
+
+        li
+            div.title 提交BUG与建议
+            span 请输入您的建议或发现的bug详情，然后点击发送按钮。
+            span
+                input#issue_val.val(placeholder="您要说的话")
+                input#issue_btn.btn(value="发送", type="button")
+script
+    | seajs.use("/script/footer");
