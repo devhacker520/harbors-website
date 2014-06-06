@@ -1,0 +1,44 @@
+@media screen and (max-width: 900px) {
+  section.focus {
+    height: 800px;
+
+    .infomation {
+      float: none;
+      width: 100%;
+      height: 50%;
+    }
+
+    .characteristic {
+      float: none;
+      width: 100%;
+      height: 50%;
+
+      .main {
+        padding-top: 120px;
+      }
+    }
+
+    .main {
+      padding-top: 130px;
+
+      span {
+      }
+
+      img {
+      }
+
+      i {
+      }
+
+      .mid {
+      }
+
+      .title {
+      }
+      .text {
+      }
+
+    }
+
+  }
+}
