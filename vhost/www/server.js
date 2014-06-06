@@ -6,7 +6,7 @@ var Router = harbors.Router.create();
 
 Router.setNotFound(function(req, res){
     res.writeHeader(302,{
-        Location: "http://code.test.itharbors.com"
+        Location: "http://code.itharbors.com"
     });
     res.end();
 });

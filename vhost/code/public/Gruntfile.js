@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 
         transport: {
             options:{
-                idleading:'seajs',
+                idleading:'/script/',
                 alias:'<%= pkg.spm.alias%>',
                 parsers : {
                     '.js' : [script.jsParser],

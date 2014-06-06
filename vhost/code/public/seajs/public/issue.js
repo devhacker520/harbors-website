@@ -1,4 +1,6 @@
-define(function(requrie, exports, module){
+define(function(require, exports, module){
+
+    var ajax = require("./ajax");
 
     var modular = {
         init: function(){
@@ -13,7 +15,13 @@ define(function(requrie, exports, module){
             }
             var self = this;
             this._btn.addEventListener('click', function(){
-                console.log(self.value);
+                if(self._val.value){
+                    ajax.jsonp("/issue", {type:"bug", message: self._val.value}, function(data){
+                        if(data['status'] === 0){
+                            alert(data['message']);
+                        }
+                    });
+                }
             }, false);
         }
     };
