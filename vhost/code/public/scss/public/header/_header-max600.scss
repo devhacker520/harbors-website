@@ -1,0 +1,38 @@
+@media screen and (max-width: 600px) {
+
+  header.top{
+    min-width: 400px;
+
+    .container{
+
+      .logo{
+        padding: 5px 0;
+        width: 130px;
+        height: 41px;
+
+        img {
+          width: 130px;
+          height: 25px;
+        }
+      }
+
+      .nav-list{
+
+        li{
+        }
+
+        a{
+          font-size: 14px;
+          line-height: 47px;
+
+          &:hover, &.hover{
+            line-height: 38px;
+          }
+
+
+        }
+      }
+    }
+  }
+
+}

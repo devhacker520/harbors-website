@@ -1,0 +1,57 @@
+@media screen and (max-width: 1200px) {
+  section.main {
+
+    .container {
+      width: auto;
+
+      .infomation {
+
+        h1 {
+        }
+
+        pre {
+        }
+
+        p {
+        }
+
+        a {
+
+          &:hover {
+          }
+        }
+
+        blockquote {
+        }
+      }
+
+      .sidebar {
+
+        .title {
+        }
+
+        li {
+
+          a {
+
+            &:hover {
+            }
+
+            .num {
+            }
+
+            .info {
+            }
+
+            .btn {
+
+              &:hover {
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

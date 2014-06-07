@@ -1,0 +1,71 @@
+@media screen and (max-width: 800px) {
+  section.main {
+    min-width: 400px;
+
+    .container {
+
+      .infomation {
+        float: none;
+        width: auto;
+
+        h1 {
+          font-size: 20px;
+          line-height: 40px;
+          margin: 15px 0 5px 0;
+        }
+
+        pre {
+          padding: 5px 10px;
+          margin: 5px 0;
+          border: 1px solid #ccc;
+        }
+
+        p {
+          margin: 5px 0;
+        }
+
+        a {
+          color: #c44747;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+        blockquote {
+          text-indent: 20px;
+        }
+      }
+
+      .sidebar {
+        width: auto;
+        float: none;
+
+        .title {
+        }
+
+        li {
+
+          a {
+
+            &:hover {
+            }
+
+            .num {
+            }
+
+            .info {
+            }
+
+            .btn {
+
+              &:hover {
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

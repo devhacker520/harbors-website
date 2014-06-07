@@ -1,0 +1,20 @@
+doctype
+html
+    head
+        include ../public/meta
+    body
+        include ../public/header
+
+        section.focus
+            div.container
+                h1 EXAMPLE
+                span 简单示例
+
+        section.main
+            div.container
+                div.infomation
+                    !=markdown
+
+                include ../public/listider
+
+        include ../public/footer

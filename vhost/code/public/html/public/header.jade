@@ -1,0 +1,22 @@
+header.top
+    div.container
+        div.logo
+            a(href="http://code.itharbprs.com", target="_blank")
+                img(src="/images/logo.png")
+
+        ul.nav-list
+            li
+                if(path==="index")
+                    a.hover(href="/") 主页
+                else
+                    a(href="/") 主页
+            li
+                if(path==="example")
+                    a.hover(href="/example") 示例
+                else
+                    a(href="/example") 示例
+            li
+                if(path==="api")
+                    a.hover(href="/api") API
+                else
+                    a(href="/api") API
