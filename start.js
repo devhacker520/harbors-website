@@ -7,7 +7,7 @@ var Listen = {
         var vhost = harbors.VHost.create();
         vhost.addDomain('code.itharbors.com', require("./vhost/code/server"));
         vhost.addDomain('www.itharbors.com', require("./vhost/www/server"));
-        vhost.addDomain('www.itharbors.com', require("./vhost/tools/server"));
+        vhost.addDomain('tools.itharbors.com', require("./vhost/tools/server"));
         harbors.Server.create('http', 80, vhost);
     },
     3000: function(){
