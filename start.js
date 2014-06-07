@@ -20,8 +20,8 @@ var Listen = {
 };
 
 server.setTask('80', Listen['80']);
-server.setTask('3000', Listen['3000']);
+//server.setTask('3000', Listen['3000']);
 
-//server.fork('80');
-//server.fork('80');
-server.fork('3000');
+server.fork('80');
+server.fork('80');
+//server.fork('3000');
