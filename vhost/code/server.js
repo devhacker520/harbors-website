@@ -13,6 +13,9 @@ Router.setNotFound(function(req, res){
 
 Router.setWorkDir(path.join(__dirname, 'public'));
 
+Router.setGzip(true);
+Router.setDeflate(true);
+
 module.exports = Router;
 
 var controller = fs.readdirSync('./vhost/code/controller');
